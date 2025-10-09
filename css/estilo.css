@@ -7,12 +7,18 @@
 body{
     font-family: "roboto",sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .nav{
     background-color: black;
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 9;
 }
 .nav-list{
     display: flex;
